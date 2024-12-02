@@ -48,7 +48,7 @@ function CheckoutForm({ amount }) {
             const { error: confirmError } = await stripe.confirmPayment({
                 elements,
                 confirmParams: {
-                    return_url: "http://localhost:3000", 
+                    return_url: "https://ryde-orcin.vercel.app/", 
                 },
             });
 
