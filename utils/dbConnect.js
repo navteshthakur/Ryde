@@ -4,7 +4,7 @@
 import mongoose from 'mongoose';
 
 // Retrieve the MongoDB URI from environment variables or fall back to a default local URI
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/myapp'; // Use your MongoDB URI
+const MONGODB_URI = process.env.MONGODB_URI; // Use your MongoDB URI
 
 /**
  * Function to connect to the MongoDB database
