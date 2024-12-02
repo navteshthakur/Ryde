@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: 'Parkinsans', sans-serif;
+  background-color: #fff6f2;
+}
+/* Global CSS - Ensure there's no overflow */
+body, html {
+  margin: 0;
+  padding: 0;
+ 
+  height: 100%; /* Ensures full screen height */
+  
+}
+.header{
+  background: linear-gradient(345deg, #800000, #bf252f, #ef5e6a, #f7abb2, #f6a5ad, #e84c5c, #a41c26, #590000);
+border:#ac6e6d;
+border-bottom-width: 4px;
+
+}
+.cl-avatarBox {
+  width: 2.75rem;
+  height: 2.75rem;
+}
