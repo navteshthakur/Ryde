@@ -54,6 +54,7 @@ bun dev
 ```
 
 Navigate to [http://localhost:3000](http://localhost:3000) in your browser to view the app.
+This app is hosted on vercel: https://ryde-orcin.vercel.app/ 
 
 ## Project Structure
 
